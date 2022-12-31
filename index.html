@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/skins/color-1.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- AOS FILE -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -23,18 +25,18 @@
             </div>
             <div class="nav-toggler"><span></span></div>
             <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="#"><i class="fa fa-user"></i>About</a></li>
-                <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-                <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#service"><i class="fa fa-list"></i>Services</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
             </ul>
         </div>
         <!-- ====Aside End===== -->
         <!-- =====Main Content Start====-->
         <div class="main-content">
             <!-- ======Home Section Start==== -->
-            <section class="home section ">
+            <section id="home" class="home section ">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
@@ -52,16 +54,16 @@
             </section>
             <!-- ======Home Section End==== -->
             <!-- ======About Section Start==== -->
-            <section class="about section">
+            <section id="about" class="about section " data-aos="fade-up">
                 <div class="container">
-                    <div class="row">
+                    <div class="row ">
                         <div class="section-title padd-15">
                             <h2>About Me</h2>
                         </div>
                     </div>
                     <div class="row">
                         <div class="about-content padd-15">
-                            <div class="row">
+                            <div class="row" data-aos="fade-up">
                                 <div class="about-text padd-15">
                                     <h3>I'm David Adisa, and a <span>Web Developer</span></h3>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vero sapiente dolor earum culpa beatae repellat voluptatem accusamus ullam deleniti a veniam similique natus quod doloremque voluptatum doloribus, eveniet
@@ -70,7 +72,7 @@
                             </div>
                             <div class="row">
                                 <div class="personal-info padd-15">
-                                    <div class="row">
+                                    <div class="row" data-aos="fade-right">
                                         <div class="info-item padd-15">
                                             <p>Birthday: <span>3 Jan 2003</span></p>
                                         </div>
@@ -99,42 +101,42 @@
                                     </div>
                                     <div class="row">
                                         <div class="buttons padd-15">
-                                            <a href="#" class="btn">Download CV</a>
-                                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                                            <a href="#" class="btn" data-aos="fade-right">Download CV</a>
+                                            <a href="#contact" class="btn hire-me" data-aos="fade-right">Hire Me</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="skills padd-15">
                                     <div class="row">
-                                        <div class="skill-item padd-15">
+                                        <div class="skill-item padd-15" data-aos="fade-up">
                                             <h5>HTML</h5>
                                             <div class="progress">
                                                 <div class="progress-in" style="width:95%;"></div>
                                                 <div class="skill-percent">95%</div>
                                             </div>
                                         </div>
-                                        <div class="skill-item padd-15">
+                                        <div class="skill-item padd-15" data-aos="fade-up">
                                             <h5>CSS</h5>
                                             <div class="progress">
                                                 <div class="progress-in" style="width:76%;"></div>
                                                 <div class="skill-percent">76%</div>
                                             </div>
                                         </div>
-                                        <div class="skill-item padd-15">
+                                        <div class="skill-item padd-15" data-aos="fade-up">
                                             <h5>JAVASCRIPT</h5>
                                             <div class="progress">
                                                 <div class="progress-in" style="width:60%;"></div>
                                                 <div class="skill-percent">60%</div>
                                             </div>
                                         </div>
-                                        <div class="skill-item padd-15">
+                                        <div class="skill-item padd-15" data-aos="fade-up">
                                             <h5>REACTJS</h5>
                                             <div class="progress">
                                                 <div class="progress-in" style="width:30%;"></div>
                                                 <div class="skill-percent">30%</div>
                                             </div>
                                         </div>
-                                        <div class="skill-item padd-15">
+                                        <div class="skill-item padd-15" data-aos="fade-up">
                                             <h5>BOOTSTRAP</h5>
                                             <div class="progress">
                                                 <div class="progress-in" style="width:70%;"></div>
@@ -148,11 +150,11 @@
                             <div class="row">
                                 <div class="education padd-15">
                                     <h3 class="title">Education</h3>
-                                    <div class="row">
+                                    <div class="row" data-aos="fade-right">
                                         <div class="timeline-box padd-15">
                                             <div class="timeline shadow-dark">
                                                 <!-- =====timeline item ===== -->
-                                                <div class="timeline-item">
+                                                <div class="timeline-item" data-aos="fade-right">
                                                     <div class="circle-dot"></div>
                                                     <h3 class="timeline-date">
                                                         <i class="fa fa-calendar"></i> 2013-2015
@@ -160,7 +162,7 @@
                                                     <h4 class="timeline-title">Master in Computer Science</h4>
                                                     <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum at perspiciatis veniam asperiores autem cumque saepe inventore modi beatae assumenda, repellendus voluptatum nobis explicabo facere consectetur.</p>
                                                 </div>
-                                                <div class="timeline-item">
+                                                <div class="timeline-item" data-aos="fade-right">
                                                     <div class="circle-dot"></div>
                                                     <h3 class="timeline-date">
                                                         <i class="fa fa-calendar"></i> 2013-2015
@@ -168,7 +170,7 @@
                                                     <h4 class="timeline-title">Master in Computer Science</h4>
                                                     <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum at perspiciatis veniam asperiores autem cumque saepe inventore modi beatae assumenda, repellendus voluptatum nobis explicabo facere consectetur.</p>
                                                 </div>
-                                                <div class="timeline-item">
+                                                <div class="timeline-item" data-aos="fade-right">
                                                     <div class="circle-dot"></div>
                                                     <h3 class="timeline-date">
                                                         <i class="fa fa-calendar"></i> 2013-2015
@@ -183,11 +185,11 @@
                                 </div>
                                 <div class="experience padd-15">
                                     <h3 class="title">Experience</h3>
-                                    <div class="row">
+                                    <div class="row" data-aos="fade-left">
                                         <div class="timeline-box padd-15">
                                             <div class="timeline shadow-dark">
                                                 <!-- =====timeline item ===== -->
-                                                <div class="timeline-item">
+                                                <div class="timeline-item" data-aos="fade-left">
                                                     <div class="circle-dot"></div>
                                                     <h3 class="timeline-date">
                                                         <i class="fa fa-calendar"></i> 2013-2015
@@ -195,7 +197,7 @@
                                                     <h4 class="timeline-title">Master in Computer Science</h4>
                                                     <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum at perspiciatis veniam asperiores autem cumque saepe inventore modi beatae assumenda, repellendus voluptatum nobis explicabo facere consectetur.</p>
                                                 </div>
-                                                <div class="timeline-item">
+                                                <div class="timeline-item" data-aos="fade-left">
                                                     <div class="circle-dot"></div>
                                                     <h3 class="timeline-date">
                                                         <i class="fa fa-calendar"></i> 2013-2015
@@ -203,7 +205,7 @@
                                                     <h4 class="timeline-title">Master in Computer Science</h4>
                                                     <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum at perspiciatis veniam asperiores autem cumque saepe inventore modi beatae assumenda, repellendus voluptatum nobis explicabo facere consectetur.</p>
                                                 </div>
-                                                <div class="timeline-item">
+                                                <div class="timeline-item" data-aos="fade-left">
                                                     <div class="circle-dot"></div>
                                                     <h3 class="timeline-date">
                                                         <i class="fa fa-calendar"></i> 2013-2015
@@ -222,13 +224,162 @@
                 </div>
             </section>
             <!-- ======About Section End==== -->
+            <!-- ======services section start==== -->
+            <section id="service" class=" service section  " data-aos="fade-up">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Services</h2>
+                        </div>
+                    </div>
+                    <div class="row" data-aos="fade-up">
+                        <!--==service item Start=== -->
+                        <div class="service-item padd-15" data-aos="fade-up">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h4>Mobile Developer</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, blanditiis?</p>
+                            </div>
+                        </div>
+                        <!--==service item End=== -->
+                        <!--==service item Start=== -->
+                        <div class="service-item padd-15" data-aos="fade-up">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Web Developer</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, blanditiis?</p>
+                            </div>
+                        </div>
+                        <!--==service item End=== -->
+                        <!--==service item Start=== -->
+                        <div class="service-item padd-15" data-aos="fade-up">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-palette"></i>
+                                </div>
+                                <h4>Web Designer</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, blanditiis?</p>
+                            </div>
+                        </div>
+                        <!--==service item End=== -->
+                        <!--==service item Start=== -->
+                        <div class="service-item padd-15" data-aos="fade-up">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Code Help</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, blanditiis?</p>
+                            </div>
+                        </div>
+                        <!--==service item End=== -->
+                        <!--==service item Start=== -->
+                        <div class="service-item padd-15" data-aos="fade-up">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <h4>Design Inspo</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, blanditiis?</p>
+                            </div>
+                        </div>
+                        <!--==service item End=== -->
+                        <!--==service item Start=== -->
+                        <div class="service-item padd-15" data-aos="fade-up">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-bullhorn"></i>
+                                </div>
+                                <h4>Annoucement</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, blanditiis?</p>
+                            </div>
+                        </div>
+                        <!--==service item End=== -->
+                    </div>
+                </div>
+            </section>
+            <!-- ======services section End==== -->
+            <!-- ======Portfolio section Start==== -->
+            <section id="portfolio" class="portfolio section" data-aos="fade-up">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Portfolio</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>My Last Project :</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- =====Porfolio Item Start ====-->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark" data-aos="fade-up">
+                                <div class="portfolio-img">
+                                    <img src="images/image1.png" alt="image 1">
+                                </div>
 
+                            </div>
+                            <div class="portfolio-title padd-15" data-aos="fade-up">
+                                <h4>nike website</h4>
+                                <div class="link">
+                                    <a href="#portfolio" class="btn">Check it out</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- =====Porfolio Item End ====-->
+                        <!-- =====Porfolio Item Start ====-->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark" data-aos="fade-up">
+                                <div class="portfolio-img">
+                                    <img src="images/image2.png" alt="image 2">
+                                </div>
+                            </div>
+                            <div class="portfolio-title padd-15" data-aos="fade-up">
+                                <h4>netflix clone</h4>
+                                <div class="link">
+                                    <a href="#portfolio" class="btn">Check it out</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- =====Porfolio Item End ====-->
+                        <!-- =====Porfolio Item Start ====-->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark" data-aos="fade-up">
+                                <div class="portfolio-img">
+                                    <img src="images/image3.png" alt="image 3">
+                                </div>
+                            </div>
+                            <div class="portfolio-title padd-15" data-aos="fade-up">
+                                <h4>wheels website</h4>
+                                <div class="link">
+                                    <a href="#portfolio" class="btn">Check it out</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- =====Porfolio Item End ====-->
+
+                    </div>
+                </div>
+            </section>
+            <!-- ======Portfolio section End==== -->
         </div>
         <!-- =====Main Content End===== -->
     </div>
     <!--======Main Content End======-->
     <!-- ========JS FILES====== -->
+
     <script src="js/script.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
