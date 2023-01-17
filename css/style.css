@@ -356,8 +356,6 @@ h3.my-profession {
     max-width: 40%;
     text-align: center;
     position: relative;
-    background-color: var(--skin-color);
-    border-radius: 41%;
 }
 
 .home-img::before {
@@ -368,7 +366,7 @@ h3.my-profession {
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
     border-radius: 5px;
-    left: -20px;
+    left: 30px;
     top: -30px;
 }
 
@@ -386,7 +384,6 @@ h3.my-profession {
 
 .home .home-img img {
     margin-top: auto;
-    border-radius: 5px;
     height: 400px;
 }
 

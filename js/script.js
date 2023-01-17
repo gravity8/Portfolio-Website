@@ -1,5 +1,6 @@
 AOS.init();
 
+
 var typed = new Typed(".typing", {
     strings: ["  ", " ", "Web Developer",
         "Web designer", "Webflow Developer"
