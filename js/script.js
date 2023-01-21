@@ -3,7 +3,7 @@ AOS.init();
 
 var typed = new Typed(".typing", {
     strings: ["  ", " ", "Web Developer",
-        "Web designer", "Webflow Developer"
+        "UI/UX designer", "Webflow / wordpress  Developer"
     ],
     typeSpeed: 100,
     Backspeed: 60,
